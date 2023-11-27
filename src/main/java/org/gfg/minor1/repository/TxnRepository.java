@@ -11,6 +11,4 @@ public interface TxnRepository extends JpaRepository<Txn, Integer> {
                                                                                    TxnStatus status);
 }
 
-// student with java book issued
-// student is returning the book
-// student is again issuinh the same book
+

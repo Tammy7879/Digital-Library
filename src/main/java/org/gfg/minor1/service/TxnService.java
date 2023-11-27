@@ -109,9 +109,7 @@ public class TxnService {
     }
 
     private int calculateSettlementAmount(Txn txn){
-        // i can convert both dates into milliseconds
-        // check the diff
-        // convert it back to days
+
         long issueTime = txn.getCreatedOn().getTime();
         long returnTime = System.currentTimeMillis();
 
@@ -127,6 +125,4 @@ public class TxnService {
     }
 
 }
-// check how can i update txn table from code
-// controller -> exceptions from controller
-// test cases
+

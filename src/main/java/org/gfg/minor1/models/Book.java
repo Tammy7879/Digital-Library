@@ -34,7 +34,4 @@ public class Book {
     @JsonIgnoreProperties("booksList")
     private Student student;
 
-    //composite key
-
-
 }
